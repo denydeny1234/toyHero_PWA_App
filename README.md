@@ -1,8 +1,8 @@
-**# Project Title**
+# Toy Hero PWA App
 
-Duo Case 8: No more toys
 
-**## Description**
+
+## Description
 
 ToyHero is an app that connects people with unused or unwanted toys with families in need. It is designed to make it easy for donors to find deserving recipients who will benefit from their generosity, while also making it easier for families who are struggling to provide toys for their children.
 
@@ -12,7 +12,7 @@ The app is user-friendly and easy to navigate, with a simple interface that allo
 
 Overall, ToyHero is a platform that aims to foster generosity, kindness, and community spirit by enabling people to share unused toys with those in need.
 
-**## Features**
+## Features
 
 1. Donation - The "Donation" feature in the app enables users to upload toys to an existing database where people would be able to list their old toys. The old toys can be donated to less fortunate families, which can't afford toys or kindergartens, which are in need of toys for the children. The donator gets a discount on new toys.
 
@@ -22,27 +22,21 @@ Overall, ToyHero is a platform that aims to foster generosity, kindness, and com
 
 4. Filter - filter according to distance
 
-**## Installation**
+## Use instructions
 
 1. Clone the repository: `git clone https://git.fhict.nl/I476087/duo_case8_no_more_toys.git`
 2. Navigate to the project directory: `cd Code`
 3. Install dependencies: `npm install`
 
-**## File Structure**
+## Technologies used
 
-The project follows the following file structure:
+- HTML
 
-/images
-/pages
-/script
-/sounds
-/style
-.htacces
-icons
-index.html
-manifest.webmanifest
-pwa.js
-service-worker.js
+- CSS
+
+- Java script
+
+- Progressive Web App
 
 
 
