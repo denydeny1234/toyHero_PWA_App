@@ -24,7 +24,7 @@ Overall, ToyHero is a platform that aims to foster generosity, kindness, and com
 
 ## Use instructions
 
-1. Clone the repository: `git clone https://git.fhict.nl/I476087/duo_case8_no_more_toys.git`
+1. Clone the repository: `git clone https://github.com/denydeny1234/toyHero_PWA_App.git`
 2. Navigate to the project directory: `cd Code`
 3. Install dependencies: `npm install`
 
