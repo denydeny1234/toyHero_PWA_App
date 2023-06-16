@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  /* letter-spacing: 1.5px; */
+}
+
+button {
+  border-radius: 15px;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 5px 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+div.colouredContainer {
+  background-color: #476a7d;
+  text-align: center;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  padding: 0 30px 150px 30px;
+}
+
+.logo {
+  margin-top: -50px;
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.specialDeals,
+.chat {
+  margin-top: -50px;
+}
+
+.specialDeals {
+  text-align: left;
+  float: left;
+}
+.specialDeals h2,
+.specialDeals h3 {
+  color: #b0ddf0;
+}
+
+.specialDeals h2 {
+  font-size: 1.1em;
+}
+.specialDeals h3 {
+  font-size: 1em;
+}
+
+.chat {
+  float: right;
+}
+.chatIcon {
+  max-width: 100%;
+  height: auto;
+  width: 50px;
+}
+
+.donateNow {
+  margin-top: 20px;
+
+  background-color: #b0ddf0;
+  color: #476a7d;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.donateNow div {
+  text-align: left;
+}
+
+.donateNow h2 {
+  font-size: 1.2em;
+}
+
+.donateNow p {
+  margin-top: 10px;
+}
+
+.donateNow .btn {
+  text-align: right;
+}
+
+.donateNow button {
+  margin-top: 20px;
+  background-color: #ffc5c3;
+  color: #476a7d;
+}
+
+.newlyAdded {
+  margin-top: 20px;
+  color: #ffc5c3;
+  text-align: left;
+}
+
+.newlyAdded h1 {
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+
+.whiteContainer {
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.toy {
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+  margin-top: -130px;
+}
+
+.toyDescription h2 {
+  font-size: 1.1em;
+  margin-top: -30px;
+  color: #476a7d;
+}
+
+.toyDescription button {
+  background-color: #ffc5c3;
+  color: #476a7d;
+  margin-top: 10px;
+}
+
+/* Bottom navigation */
+.bottomNav {
+  position: fixed;
+  z-index: 11111111;
+  bottom: 0;
+  width: 100vw;
+  background-color: #476a7d;
+  padding: 20px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.bottomNav div h3 {
+  font-size: 0.9em;
+}
+
+.icons {
+  text-align: center;
+}
+
+.home,
+.discover,
+.liveChat,
+.favourites,
+.profile {
+  text-align: center;
+  margin-right: 1%;
+}

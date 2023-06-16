@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#logoContainer {
+  text-align: center;
+}
+
+.logo {
+  margin-top: -50px;
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+}
+
+#level-title {
+  font-size: 1.5rem;
+  margin: 2%;
+  color: #476a7d;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100px;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 10px solid #476a7d;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #b0ddf0;
+}
+
+.green {
+  background-color: #ffc5c3;
+}
+
+.blue {
+  background-color: #476a7d;
+}
+
+.yellow {
+  background-color: aliceblue;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* End game button */
+
+.button {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.reserveBtn {
+  background-color: #ffc5c3;
+  color: #476a7d;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-size: 1.3em;
+  font-weight: 600;
+  padding: 5px 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

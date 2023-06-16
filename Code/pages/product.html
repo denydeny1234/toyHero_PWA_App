@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="../manifest.webmanifest" crossorigin="use-credentials">
+  <script src="../pwa.js"></script>
+  <script src="../service-worker.js"></script>
+  <title>Poro Plushie | Toy Hero</title>
+
+  <!-- Css Link -->
+  <link rel="stylesheet" href="../style/product.css" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Coloured container -->
+  <div class="colouredContainer">
+    <!-- Arrow back -->
+    <a href="discover.html">
+      <div class="arrowBack">
+        <svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M14.8451 1.16297C14.1585 0.476396 13.0516 0.476396 12.365 1.16297L0.721216 12.8068C0.174756 13.3532 0.174756 14.236 0.721216 14.7824L12.365 26.4262C13.0516 27.1128 14.1585 27.1128 14.8451 26.4262C15.5317 25.7397 15.5317 24.6327 14.8451 23.9462L4.70057 13.7876L14.8591 3.62905C15.5317 2.95648 15.5317 1.83554 14.8451 1.16297Z"
+            fill="#B0DDF0" />
+        </svg>
+      </div>
+    </a>
+
+    <div class="heartIcon">
+      <svg class="heartIconProduct" width="20" height="18" viewBox="0 0 20 18" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M18.1766 1.90686C17.1163 0.828351 15.7108 0.170091 14.2139 0.0509847C12.7171 -0.0681212 11.2276 0.359781 10.0145 1.2574C8.74187 0.297038 7.15781 -0.138434 5.58133 0.0386726C4.00486 0.21578 2.55308 0.992311 1.51835 2.21189C0.483624 3.43147 -0.0571979 5.00351 0.00479662 6.61143C0.0667912 8.21936 0.726997 9.74374 1.85246 10.8776L8.06404 17.1896C8.58419 17.7089 9.28474 18 10.0145 18C10.7443 18 11.4449 17.7089 11.965 17.1896L18.1766 10.8776C19.3445 9.68549 20 8.07299 20 6.39223C20 4.71146 19.3445 3.09897 18.1766 1.90686ZM16.7663 9.47718L10.5547 15.779C10.484 15.8514 10.3999 15.9089 10.3072 15.9481C10.2144 15.9874 10.115 16.0076 10.0145 16.0076C9.91409 16.0076 9.81464 15.9874 9.72192 15.9481C9.62922 15.9089 9.54509 15.8514 9.4744 15.779L3.26282 9.44674C2.47838 8.63323 2.03912 7.54043 2.03912 6.40237C2.03912 5.26432 2.47838 4.17152 3.26282 3.35801C4.06218 2.55733 5.14027 2.10837 6.26359 2.10837C7.3869 2.10837 8.46499 2.55733 9.26435 3.35801C9.35734 3.45312 9.46797 3.52862 9.58986 3.58014C9.71175 3.63166 9.84248 3.65818 9.97453 3.65818C10.1066 3.65818 10.2373 3.63166 10.3592 3.58014C10.4811 3.52862 10.5917 3.45312 10.6847 3.35801C11.4841 2.55733 12.5622 2.10837 13.6855 2.10837C14.8088 2.10837 15.8869 2.55733 16.6862 3.35801C17.4815 4.16086 17.9351 5.24774 17.9501 6.38582C17.9651 7.5239 17.5401 8.62267 16.7663 9.44674V9.47718Z"
+          fill="#ffc5c3" />
+      </svg>
+    </div>
+
+    <div class="toyImg">
+      <div class="lightShadow"></div>
+
+      <img src="../images/toys/poroToy.png" alt="" />
+    </div>
+  </div>
+
+  <!-- White container -->
+  <div class="whiteContainer">
+    <h1 class="titleProduct">“Poro” Blue Plushie Toy</h1>
+
+    <hr />
+
+    <div class="description">
+      <div class="state">
+        <div class="stateTitle inline">
+          <h3>State</h3>
+        </div>
+        <div class="starsState inline">
+          <img src="../images/starFilledPink.png" alt="" />
+          <img src="../images/starFilledPink.png" alt="" />
+          <img src="../images/starFilledPink.png" alt="" />
+          <img src="../images/starFilledPink.png" alt="" />
+          <img src="../images/starUnfilledPink.png" alt="" />
+        </div>
+      </div>
+
+      <div class="material">
+        <h3>Material: Plushie</h3>
+      </div>
+
+      <div class="age">
+        <h3>Suitable age: Over 2 Years</h3>
+      </div>
+
+      <div class="distance">
+        <div class="distanceDescriptionEachToy inline">
+          <h3>Distance: 2km away</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="button">
+      <button class="reserveBtn">Reserve</button>
+    </div>
+  </div>
+</body>
+
+</html>

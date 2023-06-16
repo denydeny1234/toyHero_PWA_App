@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #476a7d;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #476a7d;
+}
+
+.inline {
+  display: inline-block;
+}
+
+/* Logo */
+#logoContainer {
+  text-align: center;
+}
+
+.logo {
+  margin-top: -50px;
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+}
+
+/* Scan image */
+.scan {
+  text-align: center;
+}
+.scan img {
+  width: 70%;
+}
+
+/* Scan button */
+
+.scanBtn {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.scanBtn button {
+  background-color: #ffc5c3;
+  color: #476a7d;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 5px 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* Bullets title */
+
+.instructionsTitle {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.instructionsTitle h1 {
+  font-size: 1.3em;
+  color: #b0ddf0;
+  position: relative;
+  top: -20px;
+}
+
+.bringToyLife {
+  margin-top: 30px;
+  color: #b0ddf0;
+  padding-left: 20px;
+  padding-right: 40px;
+  line-height: 1.5;
+  margin-bottom: 100px;
+}
+
+.bringToyLife h2 {
+  font-size: 1.2em;
+}
+
+.bringToyLife p {
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+.whiteContainer {
+  position: relative;
+  background-color: white;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  height: 120px;
+  margin-bottom: 50px;
+}
+
+.profileTitle {
+  text-align: left;
+  padding-left: 50px;
+  position: absolute;
+  top: -40px;
+}
+
+.profileTitle h1 {
+  font-size: 1.3em;
+  color: #ffc5c3;
+  position: relative;
+  top: -20px;
+}
+
+.arrowUp {
+  text-align: center;
+}
+
+.arrowUp img {
+  margin-top: 30px;
+  width: 40px;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.instructionSection {
+  margin-top: 30px;
+}
+
+.help {
+  margin-bottom: 150px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+  color: #476a7d;
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  bottom: 0;
+  padding-top: 50px;
+  background-color: white;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #476a7d;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 2px 50px;
+}
+
+.modal-body p {
+  margin-top: 10px;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Bottom navigation */
+.bottomNav {
+  position: fixed;
+  z-index: 11111111;
+  bottom: 0;
+  width: 100vw;
+  background-color: #476a7d;
+  padding: 20px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.bottomNav div h3 {
+  font-size: 0.9em;
+}
+
+.icons {
+  text-align: center;
+}
+
+.home,
+.discover,
+.liveChat,
+.favourites,
+.profile {
+  text-align: center;
+  margin-right: 1%;
+}

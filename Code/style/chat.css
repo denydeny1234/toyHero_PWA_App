@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #476a7d;
+}
+
+.inline {
+  display: inline-block;
+}
+
+#logoContainer {
+  text-align: center;
+}
+
+.logo {
+  margin-top: -50px;
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+}
+
+.inboxTitle {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.inboxTitle h1 {
+  font-size: 1.3em;
+  color: #b0ddf0;
+  position: relative;
+  top: -20px;
+}
+
+/* Search bar */
+.navigation {
+  text-align: center;
+}
+
+.navigation input[type="text"] {
+  background-color: rgb(118, 118, 128, 0.2);
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  width: 80vw;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.navigation input::placeholder {
+  color: rgb(118, 118, 128);
+}
+
+.container {
+  padding: 20px;
+}
+
+.inboxContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 3px;
+  margin-top: 20px;
+  background-color: #ddeff7;
+  padding: 0 20px;
+  border-radius: 50px;
+  align-items: center;
+  justify-items: center; /* adjusted */
+  /* border-radius: 0 50px; */
+}
+
+.avatar img {
+  width: 100px;
+}
+
+.text {
+  color: #476a7d;
+}
+
+.text h1 {
+  font-size: 1.3em;
+}
+
+.text p {
+  font-size: 0.8em;
+}
+
+.noMessages {
+  border-radius: 50%;
+  background-color: #ffc5c3;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #476a7d;
+}
+
+.time p {
+  color: #ffc5c3;
+}
+
+/* Bottom navigation */
+.bottomNav {
+  position: fixed;
+  z-index: 11111111;
+  bottom: 0;
+  width: 100vw;
+  background-color: #476a7d;
+  padding: 20px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.bottomNav div h3 {
+  font-size: 0.9em;
+}
+
+.icons {
+  text-align: center;
+}
+
+.home,
+.discover,
+.liveChat,
+.favourites,
+.profile {
+  text-align: center;
+  margin-right: 1%;
+}

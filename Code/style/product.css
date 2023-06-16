@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #b0ddf0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #476a7d;
+}
+
+.inline {
+  display: inline-block;
+}
+
+/* Image product */
+.toyImg {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.toyImg img {
+  width: 250px;
+  position: relative;
+}
+
+.lightShadow {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 200px;
+  z-index: 0;
+  background-color: white;
+  opacity: 0.5;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 50px;
+}
+
+/* Arrow back */
+.arrowBack {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  background-color: #476a7d;
+  display: inline-block;
+  padding: 20px 30px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+/* Heart icon */
+.heartIconProduct {
+  position: absolute;
+  right: 30px;
+  display: inline-block;
+  top: 25px;
+  background-color: #476a7d;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+/* White container */
+
+.whiteContainer {
+  height: 55vh;
+  width: 100vw;
+  position: fixed;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  bottom: 0;
+  background-color: white;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  text-align: center;
+}
+
+.titleProduct {
+  font-size: 1.3em;
+  color: #476a7d;
+  margin-top: 16%;
+}
+
+hr {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.description {
+  color: #476a7d;
+  margin-top: 30px;
+  text-align: left;
+  margin-left: 20%;
+}
+
+.stateTitle h3 {
+  font-size: 1.1em;
+}
+
+.starsState {
+  margin-left: 10px;
+}
+
+.starsState,
+.descriptionToy h3,
+.distanceIcon img,
+.stateTitle h3 {
+  margin-top: 20px;
+}
+
+.starsState img {
+  width: 1.5em !important;
+}
+
+.distanceIcon img,
+.distanceIconEachToy img {
+  width: 1.5em !important;
+}
+
+.material,
+.age,
+.distance {
+  margin-top: 10px;
+}
+
+/* Reserve button */
+
+.button {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.reserveBtn {
+  background-color: #ffc5c3;
+  color: #476a7d;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 5px 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
